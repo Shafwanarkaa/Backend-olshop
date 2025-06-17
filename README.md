@@ -50,3 +50,10 @@ php artisan serve
 
 - 🆔 **Email**: `admin@gmail.com`  
 - 🔑 **Password**: `12345`
+
+## 🌐 Temui Saya di Media Sosial
+
+[![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Shafwanarka)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/shafwanarka)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/shafwanarkaa)
+
