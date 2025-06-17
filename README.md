@@ -1,5 +1,16 @@
-<p>PHP 8.3</p>
-<p>Laravel 11</p>
+| Software               | Versi Minimum   | Cek dengan perintah |
+| ---------------------- | --------------- | ------------------- |
+| PHP                    | 83              | `php -v`            |
+| Composer               | Terbaru         | `composer -V`       |
+| Laravel                | 11              | `laravel --version` |
+| Git                    | Terinstall      | `git --version`     |
+| Database               | MySQL / MariaDB | -                   |
+
+Langkah - Langkah <br>
+composer global require laravel/installer
+
+cd Backend-olshop
+
 BACKEND MODUL BSI WEB PROGRAMMING II 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
