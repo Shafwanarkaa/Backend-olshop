@@ -1,6 +1,5 @@
 # 🛒 Backend Olshop - Laravel 11
-
-Ini adalah proyek backend toko online yang dibangun menggunakan Laravel 11.<br>
+Proyek backend toko online modul UBSI yang dibangun menggunakan Laravel 11. <br>
 <b>Requirement : </b>
 | Software               | Versi Minimum   | Cek dengan perintah |
 | ---------------------- | --------------- | ------------------- |
@@ -12,12 +11,42 @@ Ini adalah proyek backend toko online yang dibangun menggunakan Laravel 11.<br>
 
 ## 🛠️ Installation Guide
 
-### 🔹 Step 1: Clone the Repository
+### 🔹 Step 1: Pastikan software terinstall sesuai requirement!
+```bash
+composer global require laravel/installer
+```
+### 🔹 Step 2: Clone Proyek dari GitHub
 ```bash
 git clone https://github.com/Shafwanarkaa/Backend-olshop.git
 cd Backend-olshop
 ```
-### 🔹 Step 2: install laravel
+### 🔹 Step 3: Install Dependencies
 ```bash
 composer install
-composer global require laravel/installer
+npm install
+```
+### 🔹 Step 3: Environment Setup
+```bash
+cp .env.example .env
+php artisan key:generate
+Lalu edit .env dan sesuaikan konfigurasi database di phpmyadmin kamu.
+```
+### 🔹 Step 4: Database Configuration
+```bash
+php artisan migrate --seed
+```
+### 🔹 Step 5: Setup Storage
+```bash
+php artisan storage:link
+```
+### 🔹 Step 6: Run the Application
+```bash
+php artisan serve
+```
+
+🔗 **Open** [`http://localhost:8000`](http://localhost:8000)
+
+## 🔐 Admin Login Credentials:
+
+- 🆔 **Email**: `admin@gmail.com`  
+- 🔑 **Password**: `12345`
